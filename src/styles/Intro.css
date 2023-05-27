@@ -8,7 +8,7 @@
 }
 
 .Typist {
-  color: var(--lightest-slate);
+  color: var(--palest-purple);
   text-align: center;
   font-size: 76px;
   margin-top: -30px;
@@ -32,13 +32,13 @@
 .intro-subtitle {
   margin-top: -36px;
   font-family: "NTR", sans-serif;
-  color: var(--slate);
+  color: var(--pale-purple);
   font-weight: 300;
   font-size: 48px;
 }
 
 .intro-desc {
-  color: var(--slate);
+  color: var(--pale-purple);
   font-family: "NTR", sans-serif;
   font-size: 22px;
   max-width: 40%;
@@ -57,7 +57,7 @@
 }
 
 .intro-contact:hover {
-  background-color: var(--lightest-navy);
+  background-color: var(--lightest-purple);
 }
 
 b {
