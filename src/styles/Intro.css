@@ -3,8 +3,9 @@
   flex-direction: column;
   align-items: flex-start;
   padding-left: 15%;
-  padding-top: 10%;
-  min-height: 100vh;
+  padding-top: 11%;
+  padding-bottom: 5%;
+  min-height: 70vh;
 }
 
 .Typist {
@@ -46,6 +47,10 @@
   padding-bottom: 50px;
 }
 
+.intro-desc-bold {
+  color: var(--green-bright);
+}
+
 .intro-contact {
   font-size: 22px;
   font-weight: bolder;
@@ -57,7 +62,7 @@
 }
 
 .intro-contact:hover {
-  background-color: var(--lightest-purple);
+  background-color: var(--light-purple);
 }
 
 b {
@@ -97,12 +102,12 @@ b {
     font-size: 18px;
     text-align: center;
     max-width: unset;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
 
   .intro-contact {
     font-size: 16px;
     align-self: center;
-    margin-left: 30%;
+    margin-left: 36%;
   }
 }
