@@ -24,13 +24,13 @@
   position: relative;
   height: 100%;
   padding: 2rem 1.75rem;
-  background-color: var(--normal-purple);
+  background-color: var(--normal-green);
   border-radius: 16px;
 }
 
 .projects-card:hover {
   transform: translateY(-7px);
-  background-color: var(--light-purple);
+  background-color: var(--light-green);
 }
 
 .card-header {
@@ -58,21 +58,21 @@
 
 .card-title {
   font-family: "NTR", sans-serif;
-  color: var(--palest-purple);
+  color: var(--palest-green);
   font-size: 24px;
   font-weight: bold;
 }
 
 .card-desc {
   font-family: "NTR", sans-serif;
-  color: var(--pale-purple);
+  color: var(--pale-green);
   font-size: 18px;
   padding-bottom: 40px;
 }
 
 .card-tech {
   font-family: "NTR", sans-serif;
-  color: var(--pale-purple);
+  color: var(--pale-green);
   font-size: 16px;
 }
 
@@ -110,14 +110,14 @@
 .carousel-caption h3 {
   font-size: 38px;
   font-weight: bold;
-  color: var(--palest-purple);
+  color: var(--palest-green);
 }
 
 .carousel-caption p {
   font-family: "NTR", sans-serif;
   font-weight: bold;
   font-size: 18px;
-  color: var(--palest-purple);
+  color: var(--palest-green);
 }
 
 .carousel-caption p.techStack {

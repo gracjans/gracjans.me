@@ -25,7 +25,7 @@ html {
 }
 
 .App {
-  background-color: var(--deep-purple);
+  background-color: var(--deep-green);
   display: flex;
   flex-direction: row;
   /* padding: 36px 76px; */
@@ -46,7 +46,7 @@ html {
 }
 
 ::selection {
-  background: var(--lightest-purple); /* WebKit/Blink Browsers */
+  background: var(--lightest-green); /* WebKit/Blink Browsers */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -75,12 +75,12 @@ html {
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: var(--lightest-purple);
+  background-color: var(--lightest-green);
 }
 
 .section-title {
   font-family: "NTR", sans-serif;
-  color: var(--palest-purple);
+  color: var(--palest-green);
   font-size: 46px;
   font-weight: bold;
 }

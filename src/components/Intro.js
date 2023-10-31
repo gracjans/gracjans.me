@@ -35,10 +35,10 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">Learning is just my habit.</div>
+          <div className="intro-subtitle">Growing is my habit.</div>
           <div className="intro-desc">
-          I'm a Data Scientist with a master's degree in Computer Science with a specialization in 
-          AI and ML. I'm very curious about the world and the nature of life. 
+          I'm a Data Scientist, holding a master's degree in Computer Science, 
+          specialized in AI and ML. I'm very curious about the world and the nature of life. 
           In general, any topic that lets me broaden my horizons is fun for me. 
           </div>
           <a

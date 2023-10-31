@@ -22,7 +22,7 @@
   position: relative;
   padding-left: 20px;
   font-size: 18px;
-  color: var(--pale-purple);
+  color: var(--pale-green);
 }
 
 .about-description li::before {
@@ -39,7 +39,7 @@
 
 .about-description {
   font-family: "NTR", sans-serif;
-  color: var(--pale-purple);
+  color: var(--pale-green);
   max-width: 600px;
   font-size: 22px;
   text-align: justify;
