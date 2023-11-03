@@ -19,40 +19,42 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        I am currently a <b>Data Scientist / Machine Learning Engineer </b> at 
+        <a href="https://www.digica.com"> Digica</a>, an AI software solutions provider, 
+        working on various <b>Computer Vision</b> projects and <b>Synthetic Data </b>generation.
+        I graduated with a <b>Master of Science</b> degree in <b>Computer Science</b> ( 
+        <b>Artificial Intelligence </b> and <b> Machine Learning </b>specialization) from 
+        <a href="https://p.lodz.pl"> Lodz University of Technology</a> in 2022.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        Outside of work, I am interested in following the scientific developments, 
+        broadening my horizons, and solving the equation for a happy life. I also travel a lot. And make vlogs.
       </p>
     );
     const three = (
       <p>
         <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:gazi.jarin@mail.utoronto.ca">
-          gazi.jarin@mail.utoronto.ca
+        <a href="mailto:gracjanss98@gmail.com">
+          gracjanss98@gmail.com
         </a>{" "}
         and let's talk.
       </p>
     );
-    const desc_items = [one, two];
 
     const tech_stack = [
-      "Javascript ES6+",
       "Python",
-      "React.js",
-      "Java",
-      "Node.js",
-      "HTML & CSS"
+      "PyTorch",
+      "OpenCV",
+      "SQL",
+      "Pandas",
+      "Blender",
+      "GCP",
+      "Git",
+      "Docker",
+      "Linux"
     ];
-
-    const tech_items = tech_stack.map(stack => <li>{stack}</li>);
 
     return (
       <div id="about">
@@ -63,7 +65,7 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {[one]}
-              {"Here are some technologies I have been working with:"}
+              {"Here are some main technologies I like to work with:"}
               <ul className="tech-stack">
                 {tech_stack.map(function (tech_item, i) {
                   return (
@@ -76,7 +78,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"/assets/me2.jpg"} />
+              <img src={"/assets/meg.jpg"} />
             </div>
           </div>
         </FadeInSection>

@@ -37,8 +37,8 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">Growing is my habit.</div>
           <div className="intro-desc">
-          I'm a Data Scientist, holding a master's degree in Computer Science, 
-          specialized in AI and ML. I'm very curious about the world and the nature of life. 
+          I'm a Data Scientist / Machine Learning Engineer, holding a Master's degree in Computer Science, 
+          specializing in AI and ML. I'm very curious about the world and the nature of life. 
           In general, any topic that lets me broaden my horizons is fun for me. 
           </div>
           <a
